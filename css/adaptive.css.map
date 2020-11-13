@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,0CAA0C;AAiB1C,2BAA2B;AAI3B,yCAAyC",
-"sources": ["../scss/adaptive.scss"],
-"names": [],
-"file": "adaptive.css"
-}
