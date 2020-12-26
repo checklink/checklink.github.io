@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FullPage</title>
+	<link rel="stylesheet" href="css/fullpage.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic" rel="stylesheet" />
+	<script src="js/menu.js" defer></script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__row">
+			<a class="header__logo"><img
+					src="https://images.unsplash.com/photo-1561948955-570b270e7c36?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=518&q=80"
+					alt="logo"></a>
+			<div class="header__menu menu">
+				<div class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li><a href="#s1" class="menu__link">home</a></li>
+						<li><a href="#s2" class="menu__link">about</a></li>
+						<li><a href="#s3" class="menu__link">work</a></li>
+						<li><a href="#s4" class="menu__link">portfolio</a></li>
+						<li><a href="#s5" class="menu__link">contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div id="fullpage">
+		<div class="section s1">
+			<div class="slide">
+				<h1>The first slide</h1>
+			</div>
+			<div class="slide">
+				<h1>The second slide</h1>
+			</div>
+			<div class="slide">
+				<h1>The thirty slide</h1>
+			</div>
+		</div>
+		<div class="section s2">
+			<h1>The second section</h1>
+		</div>
+		<div class="section s3">
+			<h1>The thirty section</h1>
+		</div>
+		<div class="section s4">
+			<h1>The four section</h1>
+		</div>
+		<div class="section s5">
+			<h1>The five section</h1>
+		</div>
+	</div>
+
+
+	<script src="js/fullpage.js"></script>
+
+	<script>
+		new fullpage('#fullpage', {
+			autoScrolling: true,
+			navigation: true,
+			navigationTooltips: ['Home', 'About us', 'Work', 'Portfolio', 'Contact'],
+			showActiveTooltip: false,
+			anchors: ['s1', 's2', 's3', 's4', 's5'],
+			scrollingSpeed: 750,
+			controlArrows: false,
+			slidesNavigation: false,
+
+		})
+	</script>
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- Ссылки
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+
+-->
