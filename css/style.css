@@ -1,0 +1,41 @@
+h1 {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+}
+
+.s1 {
+  background: url("https://images.unsplash.com/photo-1608208493377-9db89e3d8c19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+  background-size: cover;
+}
+
+.s1 h1 {
+  color: #000;
+}
+
+@media (max-width: 1024px) {
+  .s1 h1 {
+    color: white;
+  }
+}
+
+.s2 {
+  background: url("https://images.unsplash.com/photo-1511783111049-b4c32d7fa8fa?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+}
+
+.s2 h1 {
+  color: #fff;
+}
+
+.s3 {
+  background: url("https://images.unsplash.com/photo-1507386826765-02a261c17889?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+}
+
+.s3 h1 {
+  color: #fff;
+}
+
+span {
+  background: white !important;
+}
