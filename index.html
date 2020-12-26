@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FullPage</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="fullpage">
+		<div class="section s1">
+			<div class="slide">
+				<h1>The first section <a href="#s3">click</a></h1>
+			</div>
+			<div class="slide">
+				<h1>The second slide</h1>
+			</div>
+			<div class="slide">
+				<h1>The thirty slide</h1>
+			</div>
+		</div>
+		<div class="section s2">
+			<h1>The second section</h1>
+		</div>
+		<div class="section s3">
+			<h1>The thirty section</h1>
+		</div>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+
+	<script>
+		new fullpage('#fullpage', {
+			autoScrolling: true,
+			navigation: true,
+			navigationTooltips: ['Home', 'About us', 'Contact'],
+			showActiveTooltip: true,
+			anchors: ['s1', 's2', 's3'],
+			scrollingSpeed: 750,
+			controlArrows: false,
+			slidesNavigation: true,
+			dragAndMove: true,
+		})
+	</script>
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- Ссылки
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+
+-->
