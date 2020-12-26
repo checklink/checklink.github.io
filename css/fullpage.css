@@ -160,8 +160,8 @@ html.fp-enabled,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span {
     height: 2px;
-    width: 16px;
-    margin: -2px 0 0 -6px;
+    width: 24px;
+    margin: -2px 0 0 -12px;
     border-radius: none;
 }
 #fp-nav ul li a span,
@@ -209,10 +209,10 @@ html.fp-enabled,
     opacity: 1;
 }
 #fp-nav ul li .fp-tooltip.fp-right {
-    right: 20px;
+    right: 26px;
 }
 #fp-nav ul li .fp-tooltip.fp-left {
-    left: 20px;
+    left: 26px;
 }
 .fp-auto-height.fp-section,
 .fp-auto-height .fp-slide,
