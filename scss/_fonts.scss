@@ -1,0 +1,29 @@
+/** REGULAR **/
+@font-face {
+	font-family: "Gotham";
+	src: url("../fonts/Gotham-Book.eot");
+	src: local("☺"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("truetype"),
+		url("../fonts/Gotham-Book.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
+/** BOLD **/
+@font-face {
+	font-family: "Gotham";
+	src: url("../fonts/Gotham-Bold.eot");
+	src: local("☺"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype"),
+		url("../fonts/Gotham-Bold.svg") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+/** BLACK **/
+@font-face {
+	font-family: "Gotham";
+	src: url("../fonts/Gotham.eot");
+	src: local("☺"), url("../fonts/Gotham.woff") format("woff"), url("../fonts/Gotham.ttf") format("truetype"),
+		url("../fonts/Gotham.svg") format("svg");
+	font-weight: 900;
+	font-style: normal;
+}
